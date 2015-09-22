@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.zachmorris" name="Zach Morris Add-ons" version="1.0.0" provider-name="zachmorris">
+    <extension point="xbmc.addon.repository" name="Zach Morris Add-ons">
+        <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+        <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Zach Morris Add-ons</summary>
+        <platform>all</platform>
+    </extension>
+</addon>
