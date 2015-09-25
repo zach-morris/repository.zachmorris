@@ -1,0 +1,59 @@
+Internet Archive ROM Launcher Change Log
+09-25-15
+- Code cleanup for repository push
+- Added advanced settings
+
+09-23-15
+- Added some external launching commands for testing purposes (Linux/Kodibuntu mainly)
+- Added some cache cleaning to get rid of some issues people have reported
+- Added addon.xml to hopefully support standard Kodi and Retroplayer Kodi
+
+09-21-15
+- Added setting to update what the addon provides (video or games), which will be useful until retroplayer is in the main Kodi branch.  Users of the standard Kodi version will be able to use the addon by changing the setting to ‘video’
+
+09-20-15
+- Added searching functions.. it’s a work in progress
+- Added random play option, but it’s currently not implemented
+- Various code fixes and hopefully efficiency improvements
+
+09-10-15
+- Added untested Android External Launching capability
+- Code cleanup
+09-07-15
+- Added Game Boy Color archive
+- Added external launching commands for Windows OS
+08-29-15
+Fixed 32X XML file extension error
+Filtered GBA to remove junk
+Added function to check if file already exists (no need to re-download if it already exists)
+08-27-15
+- Added list sort methods (Sort Alphabetically, by Studio, Date Released, and Genre)
+- Re-parsed 32X with my updated parsing script, more accurate now
+- Added Atari Jaguar
+- Fixed DOSBox zip function error
+08-24-15
+- Added specific post DL action for DOSBox so that the launch path is corrected
+- Updated DOSBox xml for correct date format
+- Added an initial GBA archive. Not filtered yet and there are some inaccuracies, but it's a start
+08-23-15
+- Incorporated fixes from garbear for the new version of retroplayer.
+- The addon will now show up in games.
+- Updated the xml archives for a few things: TG16 should now work (error in the file extension)
+- Added Sega Master System and Sega Game Gear
+- Removed 1st NES source. Second source appears better
+- The default post-download action is now to unzip the file if it's zipped to support launching
+- Made a few fixes in the addon.py to support launching.
+08-16-15
+- Added post download action - unzip
+- Added initial implementation for external launcher (non-retroplayer) commands. Mac OS X only currently since thats the platform I'm developing on.
+08-09-15
+- Added context menu for alternate download location (launching from alternate location not yet implemented)
+- Added post download file check (if the archive returns and empty file)
+- Added hooks for alternate/external launcher use (not yet fully implemented)
+07-24-15
+- Updated the N64 XML for accuracy. Should be pretty good now for all games listed.
+- Added TurboGrafx 16 XML
+- Added DOSBox Adventure Games (did not actually test any games though)
+07-11-15
+- Updated the NES XML for accuracy. Should be pretty good now for all games listed.
+- Updated URL quoting so the archive URL is accurate. I've tested quite a few, and every one I've tested with the Nestopia core has worked Big Grin
