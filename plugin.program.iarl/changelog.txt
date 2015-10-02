@@ -1,4 +1,11 @@
 Internet Archive ROM Launcher Change Log
+10-02-15
+- Added settings for additional label options
+- Added External Launching Capability for OpenElec
+- Bug fixes reported in Kodi forums
+- Code cleanup for efficiency
+- Added Sega CD and Neo Geo CD archives
+
 09-25-15
 - Code cleanup for repository push
 - Added advanced settings
