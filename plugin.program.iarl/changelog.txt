@@ -1,10 +1,27 @@
 Internet Archive ROM Launcher Change Log
+10-06-15
+- Added Sega Saturn
+- Updated external launch commands to allow more generic launching from xml file
+- Added Lefty's OpenElec launcher commands
+- Removed chmod commands since they dont work.  Wiki updated with instructions
+- Updated addon.xml per Garbear
+- Added art for OSD (although it doesnt look like confluence uses it)
+
+10-03-15
+- Added bin folder missed due to gitnore
+- A few bug fixes, hopefully to improve OpenElec External Launching
+- CHD / ISO settings update
+- Added Atari 7800
+- Added MSX
+- Added Playstation (PS1/PSX)
+
 10-02-15
 - Added settings for additional label options
 - Added External Launching Capability for OpenElec
 - Bug fixes reported in Kodi forums
 - Code cleanup for efficiency
 - Added Sega CD and Neo Geo CD archives
+- Added percent download complete update
 
 09-25-15
 - Code cleanup for repository push
