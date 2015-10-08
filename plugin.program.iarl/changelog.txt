@@ -1,4 +1,11 @@
 Internet Archive ROM Launcher Change Log
+10-08-15
+- Fixed OpenElec external launch function
+- Added additional windows external launching functions
+- Added additional post DL actions
+- Implemented Random Play Option
+- Fixed bin launching in Retroplayer per Garbears input
+
 10-06-15
 - Added Sega Saturn
 - Updated external launch commands to allow more generic launching from xml file
