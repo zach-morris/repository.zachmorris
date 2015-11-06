@@ -1,4 +1,9 @@
 Internet Archive ROM Launcher Change Log
+11-05-15
+- Added Lynx ROM Fix (Add header post download)
+- Re-Scraped NES ROMs for improved accuracy (game total now is 1903 Games Filtered, 2677 Games Unfiltered)
+- Added media for user favorites (coming soon)
+
 10-08-15
 - Fixed OpenElec external launch function
 - Added additional windows external launching functions
