@@ -1,4 +1,14 @@
 Internet Archive ROM Launcher Change Log
+12-17-15
+- Updated external launching database with OpenElec RPi commands, added shell script file to support launching for RPi OpenElec
+- Fixed bug for download cancel button, now it will actually cancel the download
+- Added option for manually entered command line external launch commands via context menu
+- Fixed cache bug (I think).  This seemed to be a bug in xbmcswift2 which unfortunately is no longer supported
+- Fixed banner, clearart, poster artwork.  Also a limitation with current implementation of xbmcswift2
+- Added gameboy classic archive
+- Added best of NES archive
+- Added setting for option on default action if the file is found to already exist locally
+
 11-09-15
 - Added preliminary Favoriting Function.  Currently no method to remove a favorite (would need to be manually done)
 
