@@ -1,4 +1,13 @@
 Internet Archive ROM Launcher Change Log
+12-24-15
+- Happy Holidays!
+- Added best of SNES
+- Added best of Sega Genesis
+- Added best of N64
+- Fixed android external launch commands - I think this works for android now!
+- Fixed error in unzip function with file naming (MSX roms launch from IARL / retroplayer now)
+
+
 12-17-15
 - Updated external launching database with OpenElec RPi commands, added shell script file to support launching for RPi OpenElec
 - Fixed bug for download cancel button, now it will actually cancel the download
