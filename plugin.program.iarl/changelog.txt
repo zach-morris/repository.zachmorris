@@ -1,4 +1,10 @@
 Internet Archive ROM Launcher Change Log
+12-27-15
+- Fixed bug in prompt re-download setting
+- Added functions to launch dosbox game archives that utilize configuration files
+- Added best of Sierra Online and Lucasarts games.  Note, not all of these seem to work.  I believe they’re better suited for scummvm which is not yet included with retroplayer.  A good number of them do launch with DOSBox though (via configuration file)
+- Updated external launch commands (again) for Android.  Third time’s the charm??
+
 12-24-15
 - Happy Holidays!
 - Added best of SNES
