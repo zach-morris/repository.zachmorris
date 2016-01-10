@@ -1,4 +1,20 @@
 Internet Archive ROM Launcher Change Log
+01-09-16
+- Fixed retroplayer skin issue (double tap closing game window
+inadvertently)
+- Rescraped Sega Master System (391 Games Filtered, 544 Games Unfiltered)
+- Rescraped TG16 (345 Games Filtered, 419 Games Unfiltered)
+- Changed location of xml files from addondata to userdata
+- Added functions to check for new xml files when add-on is updated
+- Added best of MAME
+- Added best of PS1
+- Fixed bug in Favorites (poorly formatted XML in some cases)
+- Added additional settings for larger cache folder size
+- Added audio pausing for external launching, fixes HDMI output for
+some machines
+- Added additional emulator launchers for Kodibuntu/Linux (thanks
+lefty420)
+
 12-27-15
 - Fixed bug in prompt re-download setting
 - Added functions to launch dosbox game archives that utilize configuration files
