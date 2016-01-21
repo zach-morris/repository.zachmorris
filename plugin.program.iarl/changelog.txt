@@ -1,4 +1,14 @@
 Internet Archive ROM Launcher Change Log
+01-18/19-16
+- Changed external launch function for android systems
+- Rescraped Atari 2600 (710 Games Filtered, 1523 Games Unfiltered)
+- Rescraped Game Gear (408 Games Filtered, 497 Games Unfiltered)
+- Rescraped Game Boy Advance (1901 Games Filtered, 2923 Games Unfiltered - Good lord there was a large library for GBA!)
+- Added best of Atari 2600
+- Added best of Sega Game Gear
+- Added best of Sega Master System
+- Added best of Game Boy Advance
+
 01-09-16
 - Fixed retroplayer skin issue (double tap closing game window
 inadvertently)
