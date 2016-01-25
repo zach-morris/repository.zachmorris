@@ -1,5 +1,14 @@
 Internet Archive ROM Launcher Change Log
-01-18/19-16
+01-24-16
+- Added setting to allow user to define Android retroarch config location
+- Added code to try to define Android retroarch config location if no user location is defined
+- Changed external launching database to define wildcard for retroarch config file
+- Added settings to allow user to view listing of games by A-Z instead of just one big list
+- Added settings to allow user to hide a game archive they don’t want to see in the list
+- Added advanced setting to allow user to reset all hidden archive listings
+- Fixed bug when searching for ROM and playing game using retroarch (search window would inadvertently jump in front)
+
+01-18-16
 - Changed external launch function for android systems
 - Rescraped Atari 2600 (710 Games Filtered, 1523 Games Unfiltered)
 - Rescraped Game Gear (408 Games Filtered, 497 Games Unfiltered)
