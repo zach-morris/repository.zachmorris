@@ -1,4 +1,12 @@
 Internet Archive ROM Launcher Change Log
+01-30-16
+- Fixed bug in external launch function
+- Added best of TG16
+- Rescraped GBC (963 Games Filtered, 1416 Games Unfiltered)
+- Added close button to search window
+- Removed hidden archives from search list
+- Removed hidden archives from random play list
+
 01-24-16
 - Added setting to allow user to define Android retroarch config location
 - Added code to try to define Android retroarch config location if no user location is defined
