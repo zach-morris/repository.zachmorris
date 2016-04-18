@@ -1,4 +1,21 @@
 Internet Archive ROM Launcher Change Log
+- Updated windows bugs
+- Updated external command database
+- Updated launch functions for dosbox
+
+04-10-16
+- Too many changes to list.  Highlights are as follows:
+- Added Amiga
+- Added Best of Amiga
+- Added CD32
+- Rescraped PS1
+- Completed code robustness changes, i think the code is more efficient and runs faster, less buggy now
+- Updated add-on caching, should work on all systems now hopefully
+- Added support for multi-disk games (one ‘game’ in the list will download all the disks required for a game)
+- Added binaries for 7zip and chdman along with the required license stuff.  CHDMAN is still not available for Openelec or Android (to do).
+- Added add-on wizard for one-click setup for external launching (still beta, but seems to work).
+
+
 01-30-16
 - Fixed bug in external launch function
 - Added best of TG16
