@@ -1,4 +1,26 @@
 Internet Archive ROM Launcher Change Log
+05-23-16
+- Added external launch option for dolphin (may be used in the future)
+- Added UAE4ARM launch function (not tested yet)
+
+05-15-16
+- Added ColecoVision
+- Added Commodore 64
+- Added / Rescraped NeoGeoCD (works now with MAME soft lists)
+- Rescraped Best of MAME to fix non-working games (there were a handful of games missing supporting files, full MAME list yet to go)
+- Added Magnavox O2
+- Added Sega SG1000
+- Added ZX Spectrum
+- Added x68000
+- Updated MSX art
+- Added UAE4ARM template
+- Added MAME soflist functionality
+- Added settings to support MAME softlists (HASH data files need to be in the retroarch system folder, the addon will automatically add them if you allow it)
+- Fixed external launch command bug for linux
+- Added OpenElec Rpi (Mezo / Lolo78 Addon) back into external launch database
+- Updated wizard for new systems
+
+04-11-16
 - Updated windows bugs
 - Updated external command database
 - Updated launch functions for dosbox
