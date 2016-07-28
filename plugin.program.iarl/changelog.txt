@@ -1,4 +1,22 @@
 Internet Archive ROM Launcher Change Log
+07-28-16
+- Rescraped MAME (0.172 archive), Best of MAME
+- Added MAME CHD games archive (92 Games)
+- Added MAME 2010 core specific games archive (4456 Games)
+- Added Final Burn Alpha games archive (1415 Games)
+- Added SCUMMVM games archive (150 Games, 275 Unfiltered)
+- Added Vertex games archive (36 Games)
+- Added Atari 5200 games archive (93 Games)
+- Added Atari 800 games archive (225 Games)
+- Added Intellivision games archive (127 Games)
+- Added Apple IIGS games archive (168 Games, 468 Unfiltered)
+- Added Wonderswan games archive (112 Games)
+- Added Wonderswan Color games archive (95 Games)
+- Added support for LibreElec x85 (Escalade build), for Rpi use gamestarter
+- Added support for scummvm config file auto generation
+- Updated MAME softlist database for new archives
+- Updated Wizard for new archives and LibreElec
+
 05-23-16
 - Added external launch option for dolphin (may be used in the future)
 - Added UAE4ARM launch function (not tested yet)
