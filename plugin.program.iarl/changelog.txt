@@ -1,4 +1,11 @@
 Internet Archive ROM Launcher Change Log
+08-13-16
+- Added login capability
+- Removed MAME 2010 / Added MAME 2003 (RPi Users rejoice!)
+- Rescraped Sega 32X
+- Updated wizard for new archives (still in work), added wizard capability to hide archives by default
+- Added standalone MAME as an emulator option (OS X, Windows, Nix)
+
 07-28-16
 - Rescraped MAME (0.172 archive), Best of MAME
 - Added MAME CHD games archive (92 Games)
