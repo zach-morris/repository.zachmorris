@@ -1,4 +1,8 @@
 Internet Archive ROM Launcher Change Log
+08-14-16
+- Bug Fix for copying updated archive files and external data command database
+- Added Quake, Doom, CaveStory (Thanks Lefty420!)
+
 08-13-16
 - Added login capability
 - Removed MAME 2010 / Added MAME 2003 (RPi Users rejoice!)
