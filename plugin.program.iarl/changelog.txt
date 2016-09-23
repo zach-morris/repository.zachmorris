@@ -1,12 +1,17 @@
 Internet Archive ROM Launcher Change Log
-08-14-16
-- Bug Fix for copying updated archive files and external data command database
-- Added Quake, Doom, CaveStory (Thanks Lefty420!)
+09-23-16
+- Added 3DO
+- Added Atari ST
+- Added Dinothawr
+- Updated External Launch Database
+- Updated Wizard
+- Updated function that searches for local files for launching, this fixes quite a few issues with launching local files instead of downloading.  Should help users using IARL just as a front-end for games they have on their local computer
+- Added functionality to use games hosted from Google Drive or Dropbox
+- Added an advanced function to use python subprocess to provide external commands.  This is by default not used currently, but could help with troubleshooting for users in the future.
 
 08-13-16
 - Added login capability
 - Removed MAME 2010 / Added MAME 2003 (RPi Users rejoice!)
-- Rescraped Sega 32X
 - Updated wizard for new archives (still in work), added wizard capability to hide archives by default
 - Added standalone MAME as an emulator option (OS X, Windows, Nix)
 
