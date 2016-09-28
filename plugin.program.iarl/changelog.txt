@@ -1,4 +1,8 @@
 Internet Archive ROM Launcher Change Log
+09-26-16
+- Bug fixes for local file matching, tested every archive, so hopefully should cover all possible variations
+- Update to MSX archive to not unzip the files after downloading (the core can now handle zipped files)
+
 09-23-16
 - Added 3DO
 - Added Atari ST
