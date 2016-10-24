@@ -1,4 +1,8 @@
 Internet Archive ROM Launcher Change Log
+10-24-16
+- Added play history
+- Re-scraped ZX Spectrum
+
 09-26-16
 - Bug fixes for local file matching, tested every archive, so hopefully should cover all possible variations
 - Update to MSX archive to not unzip the files after downloading (the core can now handle zipped files)
