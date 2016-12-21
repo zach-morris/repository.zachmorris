@@ -1,4 +1,18 @@
 Internet Archive ROM Launcher Change Log
+
+12-21-16
+- Fixed issue for downloading hash files
+- Added 7zip support for libreelec systems (with virtual.system-tools add-on)
+- Added MAME “All Killer No Filler” archive listing (http://forum.arcadecontrols.com/index.php?topic=149708.0)
+- Updating messaging for errors, so user is more aware of the issue
+- Updating rom date and year methods
+- Added Players as an option for list naming conventions
+- Added per game override functionality for download location, post download command, and launch command.  In a nutshell, you can make a favorites (or manual) list that contains games from whatever system you want.
+- Fixed a bug in search (although another bug was identified, crashes in Linux / Android?  Debug log does not provide a good reason)
+- Updated external launch database for newly available cores
+- Added support for Amlogic S905 systems
+
+
 10-24-16
 - Added play history
 - Re-scraped ZX Spectrum
