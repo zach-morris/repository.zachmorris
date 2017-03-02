@@ -1,4 +1,22 @@
 Internet Archive ROM Launcher Change Log
+2-2-16
+- Update to Amlogic external command database
+- Fix error in unfiltered Dreamcast xml
+- Update to fix dreamcast game launching for locally existing files
+- Added MAME 2014 archives (v0.159)
+- Updated wizard for gamestarter
+- Added some code for game window skinning purposes
+- Added setting to autoplay trailer
+- Fixed issue #26
+- Rescraped PS1 (android users rejoice)
+- Added post DL action to create M3U file for PS1 from zip archives
+- Rescraped PS1 and Best of PS1, split into filtered and unfiltered lists.  Android users rejoice!
+- Rescraped Sega Saturn (Android users rejoice)
+- Rescraped Rescraped NES (1757 Games Filtered, 2756 Unfiltered) and Best of NES (in line with IADB)
+- Added external commands for additional Android emulators (thanks trinib)
+- Updated external launch database for renamed libretro cores
+- Added postal commands for gamestarter Amiga
+- Added ability to review launch command from context menu
 
 12-21-16
 - Fixed issue for downloading hash files
