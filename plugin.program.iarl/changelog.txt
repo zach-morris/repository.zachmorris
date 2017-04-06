@@ -1,4 +1,6 @@
 Internet Archive ROM Launcher Change Log
+4-6-17
+Error correction
 
 4-3-17
 Added support for special paths in addon settings
