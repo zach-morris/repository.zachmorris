@@ -1,6 +1,12 @@
 Internet Archive ROM Launcher Change Log
-4-6-17
-Error correction
+6-5-17
+Updated Final Burn Alpha to latest version set 0.2.97.40
+Updated MAME and multiple MESS sets to latest available version 0.185
+Fixed bug in wizard for Kodi / retroplayer setup (thanks MrTarantula)
+Updated function to check for bad file(s) returned by archive.org - more verbose in failure now
+Updated external launch functions for linux systems, add-on will now look for the libretro core path (linux has lots of places it could be depending on the OS, thanks to lpenz)
+Updated Commodore 64 to new archive for use with new retroarch core (VICE)
+
 
 4-3-17
 Added support for special paths in addon settings
