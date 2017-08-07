@@ -1,4 +1,9 @@
 Internet Archive ROM Launcher Change Log
+
+8-6-17
+Updated SNES and NES
+Updated IARL Favorites function to bookmark rather than copy all settings
+
 6-5-17
 Updated Final Burn Alpha to latest version set 0.2.97.40
 Updated MAME and multiple MESS sets to latest available version 0.185
