@@ -1,4 +1,6 @@
 Internet Archive ROM Launcher Change Log
+8-8-17
+Updated FBA to v0.2.97.42
 
 8-6-17
 Updated SNES and NES
