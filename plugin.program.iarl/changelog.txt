@@ -1,32 +1,20 @@
 Internet Archive ROM Launcher Change Log
-8-8-17
-Updated FBA to v0.2.97.42
-
-8-6-17
-Updated SNES and NES
-Updated IARL Favorites function to bookmark rather than copy all settings
-
-6-5-17
-Updated Final Burn Alpha to latest version set 0.2.97.40
-Updated MAME and multiple MESS sets to latest available version 0.185
-Fixed bug in wizard for Kodi / retroplayer setup (thanks MrTarantula)
-Updated function to check for bad file(s) returned by archive.org - more verbose in failure now
-Updated external launch functions for linux systems, add-on will now look for the libretro core path (linux has lots of places it could be depending on the OS, thanks to lpenz)
-Updated Commodore 64 to new archive for use with new retroarch core (VICE)
-
-
-4-3-17
-Added support for special paths in addon settings
-Added advanced settings to allow for post download function editing
-Fix for github issue #27 - should resolve issues with locally saved files not correctly recognized
-Added post dl function for MESS2014
-Fix divide by zero bug in downloading
-Setting name changes for clarification (email and gamestarter)
-Added PCE CD Archive (328 Games)
-Added wizard setting for PCE CD
-Rescraped Final Burn Alpha (0.2.97.39), added additional metadata (1479 Games Filtered, 4134 Games Unfiltered)
-Rescraped SNES, added additional metadata, inline with IADB (2243 Games Filtered, 3641 Games Unfiltered)
-Updated some images for archive listings that were not available
-Added new viewtypes by adding setcontent in addon
-Added advanced setting to change addon content type (default to TVShow for most viewtypes currently, will eventually default to games)
-A few code improvements and small bugfixes
+11-01-2017
+Fix error in file size for some games in listings (thanks nerdflix)
+Updated setup wizard, should be more seamless for first time users now
+Fixed wizard for slower machines that would appear to not be working when the wizard started (thanks sublinhado)
+Added a Terms of Use page when add-on is first run
+Updated ROM Window to inhibit buttons after download or launch are pressed, to avoid double presses
+Fix failure to launch game if xml file is present (thanks garbear)
+Updated external launchers, renamed so they’re in line with current options.  Will update wiki accordingly
+Updated external command database.  Made a script to generate this database so it should stay in line with libretro builedbot more readily
+Added Game and Watch list
+Added Lutro Game list
+Added Phillips CD-i (117 Games Filtered, 625 Unfiltered)… Possibly the worst gaming system of all time?
+Add softlist launching functions for games with no launch file (only required for CD-i for now)
+Fix some search window stuff
+Fix for error in launching previously downloaded DOSBox games (thanks myuubie)
+Updated ColecoVision game list, now launches with default BlueMSX core and works really well!
+Updated MSX, split into two game lists:
+MSX1 (384 Games / 937 Games Unfiltered)
+MSX2 (131 Games / 197 Games Unfiltered)
