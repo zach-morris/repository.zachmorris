@@ -1,4 +1,12 @@
 Internet Archive ROM Launcher Change Log
+
+12-3-2017
+Fix failure to launch game if nfo file is present (thanks myscha)
+Fixed error in search window progress bar
+Added addon settings to show/hide Search,Random Play,GamePlay History,Extras
+Removed unfiltered game list files from the addon, moved them to IARL Extras
+Added IARL Extras, please contribute your lists!
+
 11-01-2017
 Fix error in file size for some games in listings (thanks nerdflix)
 Updated setup wizard, should be more seamless for first time users now
