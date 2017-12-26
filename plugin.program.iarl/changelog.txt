@@ -1,28 +1,19 @@
 Internet Archive ROM Launcher Change Log
 
+12-23-2017
+Update Quake List to fix launching and add mission packs
+Add GB Classic and Color Best of List
+Fix error if addondata cannot be edited
+Added ability to update metadata for your favorites lists
+Added the ability to share your favorites lists (send to IARL extras) - share your lists!
+Adding Windows 3.X Game list, to be used with DOSBOX.  WINSKI!
+Added VirtualBoy Game List
+Update / cleaned up webutils (thanks knightbaker)
+Updated IARL extras list item to provide info on latest updates
+
 12-3-2017
 Fix failure to launch game if nfo file is present (thanks myscha)
 Fixed error in search window progress bar
 Added addon settings to show/hide Search,Random Play,GamePlay History,Extras
 Removed unfiltered game list files from the addon, moved them to IARL Extras
 Added IARL Extras, please contribute your lists!
-
-11-01-2017
-Fix error in file size for some games in listings (thanks nerdflix)
-Updated setup wizard, should be more seamless for first time users now
-Fixed wizard for slower machines that would appear to not be working when the wizard started (thanks sublinhado)
-Added a Terms of Use page when add-on is first run
-Updated ROM Window to inhibit buttons after download or launch are pressed, to avoid double presses
-Fix failure to launch game if xml file is present (thanks garbear)
-Updated external launchers, renamed so they’re in line with current options.  Will update wiki accordingly
-Updated external command database.  Made a script to generate this database so it should stay in line with libretro builedbot more readily
-Added Game and Watch list
-Added Lutro Game list
-Added Phillips CD-i (117 Games Filtered, 625 Unfiltered)… Possibly the worst gaming system of all time?
-Add softlist launching functions for games with no launch file (only required for CD-i for now)
-Fix some search window stuff
-Fix for error in launching previously downloaded DOSBox games (thanks myuubie)
-Updated ColecoVision game list, now launches with default BlueMSX core and works really well!
-Updated MSX, split into two game lists:
-MSX1 (384 Games / 937 Games Unfiltered)
-MSX2 (131 Games / 197 Games Unfiltered)
