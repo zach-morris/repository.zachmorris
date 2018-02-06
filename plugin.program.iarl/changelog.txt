@@ -1,5 +1,15 @@
 Internet Archive ROM Launcher Change Log
 
+02-06-2017
+Fixed some typos (thanks RobLoach)
+Added EasyRPG games list
+Added support for some more MAME softlist systems (game lists to be added soon)
+Attempt to provide skinning ability for ROM Info Window (thanks DjCisco)
+Updated MAME lists to 0.193 (latest available)
+Updated wizard for new game lists
+Updated external launch database to be inline with Retroarch core changes
+Update readme to highlight the fact that IARL is in fact open source and free.  Dont sell it. It's $Free.99 yo!
+
 12-23-2017
 Update Quake List to fix launching and add mission packs
 Add GB Classic and Color Best of List
@@ -10,10 +20,3 @@ Adding Windows 3.X Game list, to be used with DOSBOX.  WINSKI!
 Added VirtualBoy Game List
 Update / cleaned up webutils (thanks knightbaker)
 Updated IARL extras list item to provide info on latest updates
-
-12-3-2017
-Fix failure to launch game if nfo file is present (thanks myscha)
-Fixed error in search window progress bar
-Added addon settings to show/hide Search,Random Play,GamePlay History,Extras
-Removed unfiltered game list files from the addon, moved them to IARL Extras
-Added IARL Extras, please contribute your lists!
