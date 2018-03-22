@@ -1,5 +1,13 @@
 Internet Archive ROM Launcher Change Log
 
+03-21-2017
+Added additional unzip debug logging
+Cleaned up unused media files
+Defaulted all game lists to Retroplayer
+Fixed bug for autoplay of trailers
+Updated InfoDialog WindowXML
+Various code cleanup
+
 02-06-2017
 Fixed some typos (thanks RobLoach)
 Added EasyRPG games list
