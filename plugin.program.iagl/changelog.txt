@@ -1,0 +1,4 @@
+Internet Archive Game Launcher Change Log
+
+2.0.0
+Initial release for Kodi v18
