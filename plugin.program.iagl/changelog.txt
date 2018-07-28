@@ -1,4 +1,10 @@
 Internet Archive Game Launcher Change Log
 
+2.0.1
+Fix for game play history
+Added search and random play back in
+Added some game lists
+Various bug fixes
+
 2.0.0
 Initial release for Kodi v18
