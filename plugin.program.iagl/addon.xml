@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.0.1">
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.0.2">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.dateutil"/>
@@ -13,7 +13,7 @@
     <provides>video game</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>false</reuselanguageinvoker>
+    <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
     <platform>all</platform>
     <language></language>
     <summary>Internet Archive Game Launcher</summary>
