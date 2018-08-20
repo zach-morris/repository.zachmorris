@@ -1,4 +1,6 @@
 Internet Archive Game Launcher Change Log
+2.0.3
+Error correction
 
 2.0.2
 Cleanup of dat files
