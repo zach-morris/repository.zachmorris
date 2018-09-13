@@ -1,4 +1,12 @@
 Internet Archive Game Launcher Change Log
+2.0.4
+Started Spanish translation (thanks to roliverosc)
+Updated external script support to close/pause Kodi via add-on settings (thanks edco for the report)
+Bug fix for enter not working after launching a game
+Attempted bug fix for bad characters in user set download path
+Updated support for non-retroarch external emulators
+Updated dat files (slowly but surely updating these)
+
 2.0.3
 Error correction
 
