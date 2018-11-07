@@ -1,4 +1,19 @@
 Internet Archive Game Launcher Change Log
+
+2.0.5
+Various update to dat files (mainly image sources)
+Fix for m3u launch error: https://github.com/zach-morris/plugin.program.iagl/issues/20
+Added m3u and adf postdl actions
+Added Amiga game lists
+Fix for win31 launch error: https://github.com/zach-morris/plugin.program.iagl/issues/20
+Updated game list sorting options
+Updated possible install paths for linux
+Updated infodialog closing for retroplayer launching
+Updated ability for controller to close infodialog
+Fix for folder/file location to show local and network locations rather than just kodi sources: https://github.com/zach-morris/plugin.program.iagl/issues/28
+Temp update for Playstation and Saturn games to be launchable by default with Retroplayer (non m3u file launching)
+
+
 2.0.4
 Started Spanish translation (thanks to roliverosc)
 Updated external script support to close/pause Kodi via add-on settings (thanks edco for the report)
