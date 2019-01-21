@@ -1,5 +1,17 @@
 Internet Archive Game Launcher Change Log
 
+2.0.6
+Update language / translation support for all settings
+Update to support LE Remix
+Update archive.org bad file handling
+Update to GW list
+Update to Doom list
+Update to Sega CD list
+Update to Anrdoid external launch functions (advanced users can change how IAGL attempts to launch the game)
+Fix SX05RE launch command typo
+Fix bug in IAGL Favorites with Random and Search links
+Added eXoDOS game list (DOSBox)
+
 2.0.5
 Various update to dat files (mainly image sources)
 Fix for m3u launch error: https://github.com/zach-morris/plugin.program.iagl/issues/20
