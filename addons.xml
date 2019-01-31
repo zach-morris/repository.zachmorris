@@ -41,7 +41,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.0.6">
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.0.7">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.dateutil"/>
