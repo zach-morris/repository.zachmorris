@@ -1,26 +1,18 @@
 Internet Archive Game Launcher Change Log
 
-2.1.0
-Added forced viewtype options in addon settings
-Fixed download progress bug
-Updated language translation (es roliverosc)
-Update unicode bug in android systems causing download location change error
-Add advanced setting to silence search and random query warnings
-Fixed search bug for search of all lists
-Added libarchive support - should resolve many issues android users had with this addon (hopefully)
-Updated URLs for https use
-Fix bug in addon dat file update process
+2.1.1
+Added RetroPie as an available external launching system (still kind of beta)
+Added Android Aarch64 as an available external launching system
+Added advanced option to organize temp cache folder by system (for overlay users)
+Portuguese language translation added (LITUATUI)
+Fixed add to IAGL favorites bug
+Added additional skin view type IDs
 Updated Wizard
 
 Updated / New Lists:
-N64
-MAME 2003
-MAME 2003 Plus
-Best of MAME 2003
-Atari 2600
-Amstrad CPC
-Vectrex
-ScummVM
-Best of Point and Click
-Game and Watch
-C64
+Added xRick
+Updated Atari 5200
+Update FBA
+Updated MAME 2003
+Updated Sega CD
+Updated ScummVM
