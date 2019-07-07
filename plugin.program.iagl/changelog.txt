@@ -1,18 +1,19 @@
 Internet Archive Game Launcher Change Log
 
-2.1.1
-Added RetroPie as an available external launching system (still kind of beta)
-Added Android Aarch64 as an available external launching system
-Added advanced option to organize temp cache folder by system (for overlay users)
-Portuguese language translation added (LITUATUI)
-Fixed add to IAGL favorites bug
-Added additional skin view type IDs
-Updated Wizard
+2.1.2
+German language translation added (sectune)
+Updated Retropie shell script
+Copy old settings to updated game list now implemented
+Copy current settings into manual entry for editing now implemented
+Delete partially downloaded files if download fails now implemented
+Updated busy dialog to show when extracting files (to show the add-on is busy)
+Updated LibreElec supported systems (RetroELEC)
+Updated Retroarch paths to support raspian
+Further attempts to squash issues with Android and UTF-8
+Updated external launch db / wizard for new and changed cores
+Changed order of external launchers to be alphabetical by system now (groups systems for easier choosing)
 
 Updated / New Lists:
-Added xRick
-Updated Atari 5200
-Update FBA
-Updated MAME 2003
-Updated Sega CD
-Updated ScummVM
+FB Neo
+NDS
+TIC-80
