@@ -1,26 +1,14 @@
 Internet Archive Game Launcher Change Log
 
-2.1.3
-Fix yet another android / utf bug (issue 110)
-Add Favorites to Front Page, with optional setting (issue 108)
-Fix bug in categories not populating
-Update launch shell script for linux/osx
-Add option for appending game list name to random and search results (issue 116)
+2.1.4
 Update widget support (issue 118)
-Update support for linux user paths (issue 101)
-Add 'Group by Tag' option for browsing
-Add additional genres to genre database
-Update external launch commands, fix ePSXe command for android (issue 133)
+Added custom groups filtering method
+Fixed post download override bug
+Fixed bug in launching correct cue file (issue 106)
 
 Updated / New Lists:
-OpenLara (added)
-PSP (added)
-PCE Supergrafx (added)
-NES Hacks (added)
-NES Translated Games (added)
-SNES Hacks (added)
-SNES Translated Games (added)
-Genesis Hacks (added)
-Genesis Translated Games (added)
-PCE CD/TGCD (updated with TGCD and translations)
-Satellaview (added)
+PPSSPP (Archive.org change)
+FBNeo (Updated version, added custom groups)
+MAME 2003 (Added custom groups)
+MAME 2003 Plus (Added custom groups)
+EasyRPG (Updated to launch correct file (core changed filetype))
