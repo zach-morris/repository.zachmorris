@@ -1,0 +1,5 @@
+Retro BIOS Tool Change Log
+
+0.4
+Adding tool to repository
+Made changes for the tool to be compatible with Kodi v18 and v19
