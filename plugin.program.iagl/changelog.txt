@@ -1,26 +1,11 @@
 Internet Archive Game Launcher Change Log
 
-2.1.5
-Update game studio database
-Added custom groups filtering method
-Fixed post download override bug
-Fixed bug in launching correct cue file (issue 106)
-Update Spanish Translation (roliverosc)
-Fix linux ~ directory syntax (Jim Weller)
-Added custom groups search and random filters
-Fix bug in searching for previously downloaded game files
-Update external launch command database for new Retroarch cores
-Update add-on wizard for new game lists
+2.1.6
+Updated wizard for new game lists
 
 Updated / New Lists:
-Atomiswave (Flycast / MAME compatible set)
-Naomi (Flycast / MAME compatible set)
-Amiga (HDF Based game set)
-Amiga CD32
-Karaoke MP3+CDG
-ExoDOS (new archive)
-Neo Geo CD (FBNeo / NEOCD compatible set)
-Sega Dreamcast
-Sega Saturn
-Wolfenstein 3D (ECWolf)
-FBNeo (new game set)
+PS1 (new archive)
+Wii
+GC
+Best of Wii
+Best of GC
