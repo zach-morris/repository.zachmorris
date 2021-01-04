@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.module.archive_tool" name="archive_tool" provider-name="Zach Morris" version="2.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="vfs.libarchive" version="1.2.0"/>
+    <import addon="vfs.rar" version="3.3.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Python class for working with file archives</summary>
+    <description lang="en">archive_tool is a set of common tools to work with the Kodi libarchive virtual file system</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <license>GNU GENERAL PUBLIC LICENSE V3</license>
+  </extension>
+</addon>
+
 <addon id="plugin.program.retrobiostool" name="Retro BIOS Tool" version="0.4">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
