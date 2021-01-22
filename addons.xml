@@ -18,9 +18,9 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.retrobiostool" name="Retro BIOS Tool" version="0.4">
+<addon id="plugin.program.retrobiostool" name="Retro BIOS Tool" version="0.5">
   <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.kodi-six"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.routing"/>
