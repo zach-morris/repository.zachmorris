@@ -53,7 +53,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.1.6">
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.1.8">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.dateutil"/>
