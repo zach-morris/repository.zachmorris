@@ -1,4 +1,4 @@
 Internet Archive Game Launcher Change Log
 
-2.1.7
-Update of old game lists.  Likely the last update for IAGL for v18 Kodi.  Soon to be replaced by v3.0.0 for Kodi v19
+3.0.0
+Release of version for Kodi v19.  A rewrite of the add-on entirely.  Phew!
