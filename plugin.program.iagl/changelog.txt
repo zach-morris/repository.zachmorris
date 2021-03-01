@@ -1,4 +1,5 @@
 Internet Archive Game Launcher Change Log
 
-3.0.0
-Release of version for Kodi v19.  A rewrite of the add-on entirely.  Phew!
+3.0.1
+Bug fixes
+Add Korean Translation (thank you jaemin1980)
