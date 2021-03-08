@@ -1,5 +1,7 @@
 Internet Archive Game Launcher Change Log
 
-3.0.1
-Bug fixes
-Add Korean Translation (thank you jaemin1980)
+3.0.2
+Bug fixes reported from users
+Updated Korean Translation (thank you jaemin1980)
+Added Netplay functionality for external launcher users
+Updated/Fixed IAGL favorites and Search and Random functions
