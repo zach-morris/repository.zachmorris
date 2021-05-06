@@ -1,7 +1,32 @@
 Internet Archive Game Launcher Change Log
 
-3.0.2
+3.0.3
 Bug fixes reported from users
-Updated Korean Translation (thank you jaemin1980)
-Added Netplay functionality for external launcher users
-Updated/Fixed IAGL favorites and Search and Random functions
+Updated Spanish translation (Intel11)
+Additional Localization Support
+Netplay improvements
+Favorites removal functions added back in
+Add-on setting added to auto filter game lists to 1G1R if possible (auto remove duplicates)
+Fixed trailer playback ending and restoration of info window
+Updated wizard
+
+Updated Game Lists (latest available and updates to lists to include all available games - with the added add-on filtering options I figured this was the best of both worlds):
+Naomi
+FBNeo (1.0.0.2)
+Sega 32X
+Atari 2600
+Atari 5200
+Atari 7800
+Sega Genesis
+Sega Master System
+N64
+NES
+SNES
+Satellaview
+TG16
+ExoDOS (MS DOS games)
+
+
+New Game Lists:
+LowRes NX (LowResNX core)
+Watara Supervision (Potator core)
