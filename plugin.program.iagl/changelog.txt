@@ -1,32 +1,18 @@
 Internet Archive Game Launcher Change Log
 
-3.0.3
-Bug fixes reported from users
-Updated Spanish translation (Intel11)
-Additional Localization Support
-Netplay improvements
-Favorites removal functions added back in
-Add-on setting added to auto filter game lists to 1G1R if possible (auto remove duplicates)
-Fixed trailer playback ending and restoration of info window
+3.0.4
+Added multi threaded downloading (speeds up archive.org downloads dramatically)
+Updated function to copy settings to updated game list
+Updated Android External Command db to add new cores
 Updated wizard
+Updated Korean Translation (thank you so-o-bima)
+Added/updated advanced settings
 
-Updated Game Lists (latest available and updates to lists to include all available games - with the added add-on filtering options I figured this was the best of both worlds):
-Naomi
-FBNeo (1.0.0.2)
-Sega 32X
-Atari 2600
-Atari 5200
-Atari 7800
-Sega Genesis
-Sega Master System
-N64
-NES
-SNES
-Satellaview
-TG16
-ExoDOS (MS DOS games)
-
+Updated Game Lists:
+Amiga CD32
+PSP Mini
+NES Best Of (fix images)
 
 New Game Lists:
-LowRes NX (LowResNX core)
-Watara Supervision (Potator core)
+Karaoke (3 lists) (PocketCDG Core)
+PSP (PPSSPP Core)
