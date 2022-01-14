@@ -1,18 +1,29 @@
 Internet Archive Game Launcher Change Log
 
-3.0.4
-Added multi threaded downloading (speeds up archive.org downloads dramatically)
-Updated function to copy settings to updated game list
-Updated Android External Command db to add new cores
-Updated wizard
-Updated Korean Translation (thank you so-o-bima)
-Added/updated advanced settings
+3.0.5
+Fixed download bug when using multiple Kodi profiles (#226)
+Updated net play launch commands
+Added functions for saving to SMB shares, but copying files and launching them from local machine (#168)
+Updated path functions for some linux flavors (#231)
+Updated post processing for MAME soft lists and CHD games
+Updated launching for rom hacks (MSU files, #236)
 
 Updated Game Lists:
-Amiga CD32
-PSP Mini
-NES Best Of (fix images)
+Cannonball (fixed launching of game)
+MAME (updated to latest)
+FBNeo (updated to latest)
+ZX Spectrum (updated to FBNeo source/set/launch core)
+Atari 800 (updated to new set)
+ExoDOS (new source)
+CD-i (new source)
+
 
 New Game Lists:
-Karaoke (3 lists) (PocketCDG Core)
-PSP (PPSSPP Core)
+Win3x0 (Windows 3.X games, DOSBOX)
+MAME 2015 (MAME 2015)
+PS2 (PCSX2)
+Quake 2 (VitaQuake2)
+CDTV (Puae)
+Sharp x68000 (px68k)
+Sharp X1 (xmil)
+FM-Towns (MAME)
