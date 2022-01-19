@@ -1,5 +1,8 @@
 Internet Archive Game Launcher Change Log
 
+3.0.6
+Fixed small bug introduced in 3.0.5
+
 3.0.5
 Fixed download bug when using multiple Kodi profiles (#226)
 Updated net play launch commands
@@ -16,7 +19,6 @@ ZX Spectrum (updated to FBNeo source/set/launch core)
 Atari 800 (updated to new set)
 ExoDOS (new source)
 CD-i (new source)
-
 
 New Game Lists:
 Win3x0 (Windows 3.X games, DOSBOX)
