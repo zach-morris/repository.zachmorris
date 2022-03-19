@@ -1,2 +1,4 @@
+03-19-21
+- Fix Need to update definition for addon.xml Issue #8
 09-21-15
 - Initial repository.   This doesn't completely make sense to me, so hopefully it works!
