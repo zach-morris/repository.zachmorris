@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.archive_tool" name="archive_tool" provider-name="Zach Morris" version="2.0.3">
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="3.0.6">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.dateutil"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.routing"/>
     <import addon="vfs.libarchive"/>
     <import addon="vfs.rar" optional="true"/>
+    <import addon="script.module.archive_tool" version="2.0.2"/>
+    <import addon="plugin.video.youtube" version="6.8.7"/>
   </requires>
-  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video game</provides>
+  </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Python class for working with file archives</summary>
-    <description lang="en">archive_tool is a set of common tools to work with the Kodi libarchive virtual file system</description>
+    <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
     <platform>all</platform>
+    <summary lang="en_GB">Internet Archive Game Launcher</summary>
+    <description lang="en_GB">The Internet Archive Game Launcher (IAGL) is a FREE Kodi addon that will browse and launch games available from the Internet</description>
+    <summary lang="es_ES">Internet Archive Game Launcher</summary>
+    <description lang="es_ES">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explora y lanza juegos disponibles en Internet</description>
+    <summary lang="es_MX">Internet Archive Game Launcher</summary>
+    <description lang="es_MX">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explorarÃ¡ y lanzarÃ¡ juegos disponibles en Internet</description>
+    <summary lang="pt_BR">Internet Archive Game Launcher</summary>
+    <description lang="pt_BR">Internet Archive Game Launcher (IAGL) Ã© um addon gratuito para Kodi que explora e executa jogos disponÃ­veis na Internet</description>
+    <summary lang="pt_PT">Internet Archive Game Launcher</summary>
+    <description lang="pt_PT">Internet Archive Game Launcher (IAGL) Ã© um addon gratuito para Kodi que explora e executa jogos disponÃ­veis na Internet</description>
+    <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=231339</forum>
+    <source>https://github.com/zach-morris/plugin.program.iagl</source>
     <assets>
       <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>support/media/screen1.jpg</screenshot>
+      <screenshot>support/media/screen2.jpg</screenshot>
+      <screenshot>support/media/screen3.jpg</screenshot>
+      <screenshot>support/media/screen4.jpg</screenshot>
+      <screenshot>support/media/screen5.jpg</screenshot>
+      <screenshot>support/media/screen6.jpg</screenshot>
     </assets>
-    <license>GNU GENERAL PUBLIC LICENSE V3</license>
   </extension>
 </addon>
 
@@ -41,60 +66,42 @@
   </extension>
 </addon>
 
-<addon id="repository.zachmorris" name="Zach Morris Add-ons" version="1.0.2" provider-name="zachmorris">
-    <extension point="xbmc.addon.repository" name="Zach Morris Add-ons">
+<addon id="repository.zachmorris" name="Zach Morris Add-ons" version="1.0.3" provider-name="zachmorris">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository">
         <dir>
-            <info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+            <info minversion="18.0.0">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
             <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/zach-morris/repository.zachmorris/raw/master/</datadir>
+            <datadir>https://github.com/zach-morris/repository.zachmorris/raw/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Zach Morris Add-ons</summary>
+        <summary lang="en_GB">Zach Morris Add-ons</summary>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
-<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="3.0.6">
+<addon id="script.module.archive_tool" name="archive_tool" provider-name="Zach Morris" version="2.0.3">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.dateutil"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
     <import addon="vfs.libarchive"/>
     <import addon="vfs.rar" optional="true"/>
-    <import addon="script.module.archive_tool" version="2.0.2"/>
-    <import addon="plugin.video.youtube" version="6.8.7"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video game</provides>
-  </extension>
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
+    <summary lang="en">Python class for working with file archives</summary>
+    <description lang="en">archive_tool is a set of common tools to work with the Kodi libarchive virtual file system</description>
     <platform>all</platform>
-    <summary lang="en_GB">Internet Archive Game Launcher</summary>
-    <description lang="en_GB">The Internet Archive Game Launcher (IAGL) is a FREE Kodi addon that will browse and launch games available from the Internet</description>
-    <summary lang="es_ES">Internet Archive Game Launcher</summary>
-    <description lang="es_ES">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explora y lanza juegos disponibles en Internet</description>
-    <summary lang="es_MX">Internet Archive Game Launcher</summary>
-    <description lang="es_MX">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explorará y lanzará juegos disponibles en Internet</description>
-    <summary lang="pt_BR">Internet Archive Game Launcher</summary>
-    <description lang="pt_BR">Internet Archive Game Launcher (IAGL) é um addon gratuito para Kodi que explora e executa jogos disponíveis na Internet</description>
-    <summary lang="pt_PT">Internet Archive Game Launcher</summary>
-    <description lang="pt_PT">Internet Archive Game Launcher (IAGL) é um addon gratuito para Kodi que explora e executa jogos disponíveis na Internet</description>
-    <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-    <forum>https://forum.kodi.tv/showthread.php?tid=231339</forum>
-    <source>https://github.com/zach-morris/plugin.program.iagl</source>
     <assets>
       <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-      <screenshot>support/media/screen1.jpg</screenshot>
-      <screenshot>support/media/screen2.jpg</screenshot>
-      <screenshot>support/media/screen3.jpg</screenshot>
-      <screenshot>support/media/screen4.jpg</screenshot>
-      <screenshot>support/media/screen5.jpg</screenshot>
-      <screenshot>support/media/screen6.jpg</screenshot>
     </assets>
+    <license>GNU GENERAL PUBLIC LICENSE V3</license>
   </extension>
 </addon>
 </addons>
