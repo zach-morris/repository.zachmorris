@@ -1,5 +1,8 @@
 Retro BIOS Tool Change Log
 
+0.6
+Kodi v20 compatability update
+
 0.5
 Kodi v19 compatability update
 
