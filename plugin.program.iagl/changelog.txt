@@ -1,31 +1,14 @@
 Internet Archive Game Launcher Change Log
 
-3.0.6
-Fixed small bug introduced in 3.0.5
-
-3.0.5
-Fixed download bug when using multiple Kodi profiles (#226)
-Updated net play launch commands
-Added functions for saving to SMB shares, but copying files and launching them from local machine (#168)
-Updated path functions for some linux flavors (#231)
-Updated post processing for MAME soft lists and CHD games
-Updated launching for rom hacks (MSU files, #236)
+3.0.7
+Updates for Kodi V20
+Updates for Wizard to be more user friendly
+Fixes for Android external launching in tandem with Kodi v20
 
 Updated Game Lists:
-Cannonball (fixed launching of game)
-MAME (updated to latest)
-FBNeo (updated to latest)
-ZX Spectrum (updated to FBNeo source/set/launch core)
-Atari 800 (updated to new set)
-ExoDOS (new source)
-CD-i (new source)
+Amiga CDTV (new source)
+PS2 (new source)
+CDI (new launcher)
 
-New Game Lists:
-Win3x0 (Windows 3.X games, DOSBOX)
-MAME 2015 (MAME 2015)
-PS2 (PCSX2)
-Quake 2 (VitaQuake2)
-CDTV (Puae)
-Sharp x68000 (px68k)
-Sharp X1 (xmil)
-FM-Towns (MAME)
+3.0.6
+Fixed small bug introduced in 3.0.5
