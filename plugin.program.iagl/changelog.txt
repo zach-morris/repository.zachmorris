@@ -1,4 +1,10 @@
 Internet Archive Game Launcher Change Log
+3.0.8
+Bug fixes for 3.0.7
+Add xfer rate to download window
+Add additional options around netplay
+Add additional option for boxart or snapshot as primary image
+
 
 3.0.7
 Updates for Kodi V20
@@ -9,6 +15,3 @@ Updated Game Lists:
 Amiga CDTV (new source)
 PS2 (new source)
 CDI (new launcher)
-
-3.0.6
-Fixed small bug introduced in 3.0.5
