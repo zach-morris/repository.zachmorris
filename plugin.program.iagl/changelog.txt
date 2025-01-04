@@ -1,9 +1,3 @@
 Internet Archive Game Launcher Change Log
-3.0.9
-Bugfix
-
-3.0.8
-Bug fixes for 3.0.7
-Add xfer rate to download window
-Add additional options around netplay
-Add additional option for boxart or snapshot as primary image
+4.0.2
+Brand new addon.  Everything changed.  See forum.

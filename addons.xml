@@ -60,17 +60,13 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="3.0.9">
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="4.0.2">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.infotagger"/>
-    <import addon="script.module.dateutil"/>
     <import addon="script.module.requests"/>
-    <import addon="script.module.routing"/>
     <import addon="vfs.libarchive"/>
-    <import addon="vfs.rar" optional="true"/>
-    <import addon="script.module.archive_tool" version="2.0.2"/>
-    <import addon="plugin.video.youtube" version="6.8.7"/>
+    <import addon="script.module.archive_tool" version="2.0.3"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video game</provides>
@@ -93,13 +89,13 @@
     <source>https://github.com/zach-morris/plugin.program.iagl</source>
     <assets>
       <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-      <screenshot>support/media/screen1.jpg</screenshot>
-      <screenshot>support/media/screen2.jpg</screenshot>
-      <screenshot>support/media/screen3.jpg</screenshot>
-      <screenshot>support/media/screen4.jpg</screenshot>
-      <screenshot>support/media/screen5.jpg</screenshot>
-      <screenshot>support/media/screen6.jpg</screenshot>
+      <fanart>fanart.png</fanart>
+      <screenshot>assets/screenshot/screen1.jpg</screenshot>
+      <screenshot>assets/screenshot/screen2.jpg</screenshot>
+      <screenshot>assets/screenshot/screen3.jpg</screenshot>
+      <screenshot>assets/screenshot/screen4.jpg</screenshot>
+      <screenshot>assets/screenshot/screen5.jpg</screenshot>
+      <screenshot>assets/screenshot/screen6.jpg</screenshot>
     </assets>
   </extension>
 </addon>
