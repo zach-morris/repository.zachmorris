@@ -1,3 +1,8 @@
 Internet Archive Game Launcher Change Log
+4.0.3
+Bug fixes
+Add view type setting for game lists
+Update post download command for MAME and MAME 2003+ for chd based games
+
 4.0.2
-Brand new addon.  Everything changed.  See forum.
+Brand new addon.  Everything changed.  See forum.  Incompatible with <= v3.X.  Do not upgrade if you want to keep old IAGL and user settings.
