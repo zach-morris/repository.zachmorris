@@ -1,5 +1,8 @@
 Internet Archive Game Launcher Change Log
 
+4.0.6
+Fix db bug
+
 4.0.5
 Updated archive.org login method
 
